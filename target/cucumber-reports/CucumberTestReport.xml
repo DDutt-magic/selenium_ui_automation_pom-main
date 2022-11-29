@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="18.692601">
+    <testcase classname="As a user, I want to search for a product and verify the product details" name="Search for product and proceed to checkout" time="18.692601">
+        <system-out>
+            <![CDATA[Given Load Trace Parts website..............................................passed
+When I enter Photoelectric Sensor in the textbox and click the Search icon..passed
+Then I select the first product that is displayed...........................passed
+Then I verify that the Product Title has LD46...............................passed
+And I verify that the Product Description has LD46-UL-715...................passed
+Then I Right click on the 3D Model Product Image that is displayed in the 3D Viewer.passed
+And In the Views option that is displayed I Click on Left and verify that the 3D Viewer displays the left side of the image.passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

@@ -1,0 +1,138 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5776215650,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Search for product and proceed to checkout",
+        "description": "",
+        "id": "as-a-user,-i-want-to-search-for-a-product-and-verify-the-product-details;search-for-product-and-proceed-to-checkout",
+        "after": [
+          {
+            "result": {
+              "duration": 1253601771,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 179916299,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Load Trace Parts website",
+            "match": {
+              "location": "TracePartsStepDefs.loginToAmazonWebsite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1020991435,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter Photoelectric Sensor in the textbox and click the Search icon",
+            "match": {
+              "location": "TracePartsStepDefs.enterTextandSearch()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 898427360,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I select the first product that is displayed",
+            "match": {
+              "location": "TracePartsStepDefs.selectFirstProductThatIsDisplayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 28132438,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I verify that the Product Title has LD46",
+            "match": {
+              "location": "TracePartsStepDefs.verifyProductTitle()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 33746069,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I verify that the Product Description has LD46-UL-715",
+            "match": {
+              "location": "TracePartsStepDefs.verifyProductDescription()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4178580862,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I Right click on the 3D Model Product Image that is displayed in the 3D Viewer",
+            "match": {
+              "location": "TracePartsStepDefs.rightClickOn3DModelProductImage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5322989559,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "In the Views option that is displayed I Click on Left and verify that the 3D Viewer displays the left side of the image",
+            "match": {
+              "location": "TracePartsStepDefs.clickOnLeftViewAndVerifyImage()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@ValidCase"
+          },
+          {
+            "line": 4,
+            "name": "@SomeTags"
+          }
+        ]
+      }
+    ],
+    "name": "As a user, I want to search for a product and verify the product details",
+    "description": "",
+    "id": "as-a-user,-i-want-to-search-for-a-product-and-verify-the-product-details",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/SearchAndSelectProduct.feature"
+  }
+]
